@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2019.2 (64-bit)                     -->
+<!--                                                              -->
+<!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="2">
+  <device name="xc7z007s_1" gui_info="dashboard1=dashboard_1[xc7z007s_1/XADC=XADC_PLOT_1;]"/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7z007s_1" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value=""/>
+      <Properties Property="PROBES.FILE" value=""/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/design_1_wrapper.bit"/>
+      <Properties Property="SLR.COUNT" value="1"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_probe" gui_info="">
+    <Object name="design_1_i/clock_divider_0_temp[31:0]" gui_info="dashboard_2/hw_vio_1=0"/>
+  </ObjectList>
+  <ObjectList object_type="hw_sysmon" gui_info="">
+    <Object name="XADC" gui_info="dashboard_1=[TEMPERATURE=-65281;SCAN_RATE=1000;TRACK_TIME=1;]"/>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="vio_input" busType="net" source="netlist" spec="VIO_INPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="ACTIVITY_PERSISTENCE" value="SHORT"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="INPUT_VALUE_RADIX" value="UNSIGNED"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/clock_divider_0_temp[31]"/>
+        <net name="design_1_i/clock_divider_0_temp[30]"/>
+        <net name="design_1_i/clock_divider_0_temp[29]"/>
+        <net name="design_1_i/clock_divider_0_temp[28]"/>
+        <net name="design_1_i/clock_divider_0_temp[27]"/>
+        <net name="design_1_i/clock_divider_0_temp[26]"/>
+        <net name="design_1_i/clock_divider_0_temp[25]"/>
+        <net name="design_1_i/clock_divider_0_temp[24]"/>
+        <net name="design_1_i/clock_divider_0_temp[23]"/>
+        <net name="design_1_i/clock_divider_0_temp[22]"/>
+        <net name="design_1_i/clock_divider_0_temp[21]"/>
+        <net name="design_1_i/clock_divider_0_temp[20]"/>
+        <net name="design_1_i/clock_divider_0_temp[19]"/>
+        <net name="design_1_i/clock_divider_0_temp[18]"/>
+        <net name="design_1_i/clock_divider_0_temp[17]"/>
+        <net name="design_1_i/clock_divider_0_temp[16]"/>
+        <net name="design_1_i/clock_divider_0_temp[15]"/>
+        <net name="design_1_i/clock_divider_0_temp[14]"/>
+        <net name="design_1_i/clock_divider_0_temp[13]"/>
+        <net name="design_1_i/clock_divider_0_temp[12]"/>
+        <net name="design_1_i/clock_divider_0_temp[11]"/>
+        <net name="design_1_i/clock_divider_0_temp[10]"/>
+        <net name="design_1_i/clock_divider_0_temp[9]"/>
+        <net name="design_1_i/clock_divider_0_temp[8]"/>
+        <net name="design_1_i/clock_divider_0_temp[7]"/>
+        <net name="design_1_i/clock_divider_0_temp[6]"/>
+        <net name="design_1_i/clock_divider_0_temp[5]"/>
+        <net name="design_1_i/clock_divider_0_temp[4]"/>
+        <net name="design_1_i/clock_divider_0_temp[3]"/>
+        <net name="design_1_i/clock_divider_0_temp[2]"/>
+        <net name="design_1_i/clock_divider_0_temp[1]"/>
+        <net name="design_1_i/clock_divider_0_temp[0]"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>

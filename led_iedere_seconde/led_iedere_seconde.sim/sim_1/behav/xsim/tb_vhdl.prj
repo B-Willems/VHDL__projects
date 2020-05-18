@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../led_iedere_seconde.srcs/sources_1/new/led1Hz.vhd" \
+"../../../../vhdlnoclk.vhd" \
+"../../../../led_iedere_seconde.srcs/sim_1/new/tb.vhd" \
+
+# Do not sort compile order
+nosort

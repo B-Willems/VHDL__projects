@@ -1,0 +1,17 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-662,-139",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port clk_out_0 -pg 1 -lvl 3 -x 260 -y 90 -defaultsOSRD
+preplace inst vhdlnoclk_0 -pg 1 -lvl 1 -x -120 -y 100 -defaultsOSRD
+preplace inst clock_divider_0 -pg 1 -lvl 2 -x 110 -y 100 -defaultsOSRD
+preplace netloc clock_divider_0_clk_out 1 2 1 210 90n
+preplace netloc vhdlnoclk_0_clkout 1 1 1 N 100
+levelinfo -pg 1 -470 -120 110 260
+pagesize -pg 1 -db -bbox -sgen -470 -140 370 310
+"
+}
+0

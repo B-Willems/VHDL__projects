@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../led_iedere_seconde.srcs/sources_1/new/led1Hz.vhd" \
+"../../../../vhdlnoclk.vhd" \
+"../../../../led_iedere_seconde.ip_user_files/bd/design_1/ip/design_1_clock_divider_0_0/sim/design_1_clock_divider_0_0.vhd" \
+"../../../../led_iedere_seconde.ip_user_files/bd/design_1/ip/design_1_vhdlnoclk_0_0_1/sim/design_1_vhdlnoclk_0_0.vhd" \
+"../../../../led_iedere_seconde.ip_user_files/bd/design_1/sim/design_1.vhd" \
+"../../../../led_iedere_seconde.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd" \
+
+# Do not sort compile order
+nosort

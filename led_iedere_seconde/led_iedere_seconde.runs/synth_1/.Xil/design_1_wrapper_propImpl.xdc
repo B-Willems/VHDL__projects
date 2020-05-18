@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:{F:/pxl/VHDL 2019-2020/vivado/led_iedere_seconde/led_iedere_seconde.srcs/constrs_1/new/xdc.xdc} rfile:../../../led_iedere_seconde.srcs/constrs_1/new/xdc.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD LVCMOS33 [get_ports clk_in_0]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN L15 [get_ports clk_out_0]
+set_property src_info {type:XDC file:1 line:9 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N14 [get_ports clk_in_0]

@@ -1,0 +1,67 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xF828F434F828F434",
+      "device": "xc7z007sclg225-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2"
+    },
+    "design_tree": {
+      "vhdlnoclk_0": "",
+      "clock_divider_0": ""
+    },
+    "ports": {
+      "clk_out_0": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "vhdlnoclk_0": {
+        "vlnv": "xilinx.com:module_ref:vhdlnoclk:1.0",
+        "xci_name": "design_1_vhdlnoclk_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "vhdlnoclk",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clkout": {
+            "direction": "O"
+          }
+        }
+      },
+      "clock_divider_0": {
+        "vlnv": "xilinx.com:module_ref:clock_divider:1.0",
+        "xci_name": "design_1_clock_divider_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "clock_divider",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk_in": {
+            "direction": "I"
+          },
+          "clk_out": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clock_divider_0_clk_out": {
+        "ports": [
+          "clock_divider_0/clk_out",
+          "clk_out_0"
+        ]
+      },
+      "vhdlnoclk_0_clkout": {
+        "ports": [
+          "vhdlnoclk_0/clkout",
+          "clock_divider_0/clk_in"
+        ]
+      }
+    }
+  }
+}
