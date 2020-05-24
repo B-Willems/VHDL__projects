@@ -1,0 +1,22 @@
+-makelib xcelium_lib/xpm -sv \
+  "F:/xilinx/2019/Vivado/2019.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+-endlib
+-makelib xcelium_lib/xpm \
+  "F:/xilinx/2019/Vivado/2019.2/data/ip/xpm/xpm_VCOMP.vhd" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../bd/design_1/ip/design_1_vhdlnoclk_0_0/sim/design_1_vhdlnoclk_0_0.vhd" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v" \
+  "../../../bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  "../../../bd/design_1/ip/design_1_VHDL_74HC595_Matrix_0_2/sim/design_1_VHDL_74HC595_Matrix_0_2.vhd" \
+  "../../../bd/design_1/ip/design_1_vio_0_0/sim/design_1_vio_0_0.vhd" \
+  "../../../bd/design_1/sim/design_1.vhd" \
+-endlib
+-makelib xcelium_lib/xil_defaultlib \
+  glbl.v
+-endlib
+

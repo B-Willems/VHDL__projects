@@ -1,0 +1,14 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+F:/testing_matrix/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.ip_user_files/bd/design_1/ip/design_1_VHDL_74HC595_Matrix_0_2/sim/design_1_VHDL_74HC595_Matrix_0_2.vhd,1590260551,vhdl,,,,design_1_vhdl_74hc595_matrix_0_2,,,,,,,,
+F:/testing_matrix/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v,1589730422,verilog,,,,design_1_clk_wiz_0_0,,,../../../../VHDL_74hc595_Matrix.srcs/sources_1/bd/design_1/ipshared/4fba,,,,,
+F:/testing_matrix/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v,1589730422,verilog,,F:/testing_matrix/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v,,design_1_clk_wiz_0_0_clk_wiz,,,../../../../VHDL_74hc595_Matrix.srcs/sources_1/bd/design_1/ipshared/4fba,,,,,
+F:/testing_matrix/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.ip_user_files/bd/design_1/ip/design_1_vhdlnoclk_0_0/sim/design_1_vhdlnoclk_0_0.vhd,1589730422,vhdl,,,,design_1_vhdlnoclk_0_0,,,,,,,,
+F:/testing_matrix/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.ip_user_files/bd/design_1/ip/design_1_vio_0_0/sim/design_1_vio_0_0.vhd,1589730422,vhdl,,,,design_1_vio_0_0,,,,,,,,
+F:/testing_matrix/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.ip_user_files/bd/design_1/sim/design_1.vhd,1590260550,vhdl,,,,design_1,,,,,,,,
+F:/testing_matrix/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.sim/sim_1/behav/xsim/glbl.v,1589730420,verilog,,,,glbl,,,,,,,,
+F:/testing_matrix/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd,1590261989,vhdl,,,,design_1_wrapper,,,,,,,,
+F:/testing_matrix/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.srcs/sources_1/imports/DigitaleSystemenVHDL/vhdlnoclock.vhd,1589730422,vhdl,,,,vhdlnoclk,,,,,,,,
+F:/testing_matrix/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.srcs/sources_1/new/VHDL_74HC595_Matrix.vhd,1590261965,vhdl,,,,vhdl_74hc595_matrix,,,,,,,,

@@ -1,0 +1,84 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Sun May 24 00:16:22 2020
+| Host         : MSI running 64-bit major release  (build 9200)
+| Command      : report_incremental_reuse -file design_1_wrapper_incremental_reuse_routed.rpt
+| Design       : design_1_wrapper
+| Device       : xc7z007s
+| Design State : Fully Routed
+----------------------------------------------------------------------------------------------
+
+Incremental Implementation Information
+
+Table of Contents
+-----------------
+1. Reuse Summary
+2. Reference Checkpoint Information
+3. Comparison with Reference Run
+4. Non Reuse Information
+
+1. Reuse Summary
+----------------
+
++-------+----------------------+--------------------+--------------------+-------+
+|  Type | Matched % (of Total) | Reuse % (of Total) | Fixed % (of Total) | Total |
++-------+----------------------+--------------------+--------------------+-------+
+| Cells |               100.00 |             100.00 |               1.03 |   483 |
+| Nets  |               100.00 |             100.00 |               0.00 |   447 |
+| Pins  |                    - |             100.00 |                  - |  1762 |
+| Ports |               100.00 |             100.00 |             100.00 |     5 |
++-------+----------------------+--------------------+--------------------+-------+
+
+
+2. Reference Checkpoint Information
+-----------------------------------
+
++----------------+-------------------------------------------------------------------------------------------------------------------+
+| DCP Location:  | F:/testing_matrix/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.srcs/utils_1/imports/impl_1/design_1_wrapper_routed.dcp |
++----------------+-------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------+----------------------------+
+|         DCP Information        |            Value           |
++--------------------------------+----------------------------+
+| Vivado Version                 |                     2019.2 |
+| DCP State                      |                 POST_ROUTE |
+| Recorded WNS                   |                     26.842 |
+| Recorded WHS                   |                      0.044 |
+| Reference Speed File Version   | PRODUCTION 1.11 2016-07-27 |
+| Incremental Speed File Version | PRODUCTION 1.11 2016-07-27 |
++--------------------------------+----------------------------+
+* Recorded WNS/WHS timing numbers are estimated timing numbers. They may vary slightly from sign-off timing numbers.
+
+
+3. Comparison with Reference Run
+--------------------------------
+
++-----------------+---------------------------+---------------------------+---------------------------+
+|                 |          WNS(ns)          |  Runtime(elapsed)(hh:mm)  |    Runtime(cpu)(hh:mm)    |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|      Stage      |  Reference  | Incremental |  Reference  | Incremental |  Reference  | Incremental |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+| synth_design    |             |             |     < 1 min |       00:01 |     < 1 min |     < 1 min |
+| opt_design      |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| read_checkpoint |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| place_design    |      26.842 |      26.842 |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| phys_opt_design |             |             |             |             |             |             |
+| route_design    |             |     190.742 |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+
+4. Non Reuse Information
+------------------------
+
++-----------------------+------+
+|          Type         |   %  |
++-----------------------+------+
+| Non-Reused Cells      | 0.00 |
+| Partially reused nets | 0.00 |
+| Non-Reused nets       | 0.00 |
+| Non-Reused Ports      | 0.00 |
++-----------------------+------+
+
+

@@ -1,0 +1,26 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-181,-159",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port sh_cp_0 -pg 1 -lvl 5 -x 820 -y 20 -defaultsOSRD
+preplace port st_cp_0 -pg 1 -lvl 5 -x 820 -y 60 -defaultsOSRD
+preplace port ds_0 -pg 1 -lvl 5 -x 820 -y 100 -defaultsOSRD
+preplace port st_led -pg 1 -lvl 5 -x 820 -y 80 -defaultsOSRD
+preplace port sh_led -pg 1 -lvl 5 -x 820 -y 40 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 250 -y 80 -defaultsOSRD
+preplace inst vhdlnoclk_0 -pg 1 -lvl 1 -x 50 -y 80 -defaultsOSRD
+preplace inst VHDL_74HC595_Matrix_0 -pg 1 -lvl 4 -x 680 -y 80 -defaultsOSRD
+preplace netloc vhdlnoclk_0_clk65MHz 1 1 1 N 80
+preplace netloc clk_wiz_0_locked 1 2 2 N 90 N
+preplace netloc VHDL_74HC595_Matrix_0_sh_cp 1 4 1 790 20n
+preplace netloc VHDL_74HC595_Matrix_0_st_cp 1 4 1 800 60n
+preplace netloc VHDL_74HC595_Matrix_0_ds 1 4 1 NJ 100
+preplace netloc clk_wiz_0_clk_out1 1 2 2 N 70 N
+levelinfo -pg 1 -60 50 250 460 680 820
+pagesize -pg 1 -db -bbox -sgen -60 -180 930 260
+"
+}
+0

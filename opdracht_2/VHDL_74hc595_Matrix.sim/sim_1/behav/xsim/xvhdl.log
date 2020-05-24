@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/testing_matrix/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.srcs/sources_1/new/VHDL_74HC595_Matrix.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'VHDL_74HC595_Matrix'
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/testing_matrix/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_wrapper'

@@ -1,0 +1,36 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: F:/xilinx/2019/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 5d8486f2ff234b42a51649d6aab5e973 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot design_1_wrapper_behav xil_defaultlib.design_1_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package ieee.std_logic_arith
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.VHDL_74HC595_Matrix [vhdl_74hc595_matrix_default]
+Compiling architecture design_1_vhdl_74hc595_matrix_0_2_arch of entity xil_defaultlib.design_1_VHDL_74HC595_Matrix_0_2 [design_1_vhdl_74hc595_matrix_0_2...]
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=9.75,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.design_1_clk_wiz_0_0_clk_wiz
+Compiling module xil_defaultlib.design_1_clk_wiz_0_0
+Compiling architecture startupe2_v of entity unisim.STARTUPE2 [\STARTUPE2(1,5)\]
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture behavioral of entity xil_defaultlib.vhdlnoclk [vhdlnoclk_default]
+Compiling architecture design_1_vhdlnoclk_0_0_arch of entity xil_defaultlib.design_1_vhdlnoclk_0_0 [design_1_vhdlnoclk_0_0_default]
+Compiling architecture design_1_vio_0_0_arch of entity xil_defaultlib.design_1_vio_0_0 [design_1_vio_0_0_default]
+Compiling architecture structure of entity xil_defaultlib.design_1 [design_1_default]
+Compiling architecture structure of entity xil_defaultlib.design_1_wrapper
+Built simulation snapshot design_1_wrapper_behav

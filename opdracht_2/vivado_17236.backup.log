@@ -1,0 +1,242 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun May 17 17:48:21 2020
+# Process ID: 17236
+# Current directory: F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16464 F:\pxl\POW 2019-2020\PCB\old version\DigitaleSystemenVHDL\VHDL_74hc595_Matrix\VHDL_74hc595_Matrix.xpr
+# Log file: F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/vivado.log
+# Journal file: F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/devWorks/FPGA/VHDL_74hc595_Matrix' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'F:/pxl/POW 2019-2020/PCB/Users/20002890/AppData/Roaming/Xilinx/Vivado/2019.2/xhub/board_store', nor could it be found using path 'C:/Users/20002890/AppData/Roaming/Xilinx/Vivado/2019.2/xhub/board_store'.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'F:/pxl/POW 2019-2020/PCB/Users/20002890/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store', nor could it be found using path 'C:/Users/20002890/AppData/Roaming/Xilinx/Vivado/2019.1/xhub/board_store'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/xilinx/2019/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:11 . Memory (MB): peak = 841.008 ; gain = 192.258
+update_compile_order -fileset sources_1
+open_bd_design {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.srcs/sources_1/bd/design_1/design_1.bd}
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Adding component instance block -- xilinx.com:module_ref:vhdlnoclk:1.0 - vhdlnoclk_0
+Adding component instance block -- xilinx.com:ip:vio:3.0 - vio_0
+Adding component instance block -- xilinx.com:module_ref:VHDL_74HC595_Matrix:1.0 - VHDL_74HC595_Matrix_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_0/locked(undef) and /VHDL_74HC595_Matrix_0/reset(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_wiz_0/clk_out1(clk) and /VHDL_74HC595_Matrix_0/clk_10MHz(undef)
+Successfully read diagram <design_1> from BD file <F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1020.434 ; gain = 40.730
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z007sclg225-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 1257.746 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 44 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'design_1_i/clk_wiz_0/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.187 . Memory (MB): peak = 1946.383 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.187 . Memory (MB): peak = 1946.383 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1946.383 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 6 instances
+
+open_run: Time (s): cpu = 00:00:30 ; elapsed = 00:00:24 . Memory (MB): peak = 2064.824 ; gain = 1044.391
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.2
+  **** Build date : Nov  6 2019 at 22:12:23
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2019.2.0
+  **** Build date : Nov 07 2019-06:28:22
+    ** Copyright 2017-2019 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 2087.063 ; gain = 14.340
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-oj1A
+open_hw_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 3299.711 ; gain = 1212.648
+set_property PROGRAM.FILE {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z007s_1]
+set_property PROBES.FILE {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z007s_1]
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1434] Device xc7z007s (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'design_1_i/vio_0' at location 'uuid_01A4B5947C445FA6BD66F70F5F031273' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-2302] Device xc7z007s (JTAG device index = 1) is programmed with a design that has 1 VIO core(s).
+WARNING: [Labtools 27-1972] Mismatch between the design programmed into the device xc7z007s (JTAG device index = 1) and the probes file(s) F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.ltx.
+ The core at location uuid_01A4B5947C445FA6BD66F70F5F031273 has different widths for VIO output port 0. Port width in the device core is 1, but port width in the probes file is 16.
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-2302] Device xc7z007s (JTAG device index = 1) is programmed with a design that has 1 VIO core(s).
+WARNING: [Labtools 27-1952] VIO hw_probe OUTPUT_VALUE properties for hw_vio(s) [hw_vio_1] differ from output values in the VIO core(s).
+Resolution: 
+To synchronize the hw_probes properties and the VIO core outputs choose one of the following alternatives:
+  1) Execute the command 'Commit Output Values to VIO Core', to write down the hw_probe values to the core.
+  2) Execute the command 'Refresh Input and Output Values from VIO Core', to update the hw_probe properties with the core values.
+  3) First restore initial values in the core with the command 'Reset VIO Core Outputs', and then execute the command 'Refresh Input and Output Values from VIO Core'.
+set_property OUTPUT_VALUE_RADIX HEX [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE_RADIX UNSIGNED [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE_RADIX OCTAL [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE_RADIX BINARY [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+close_hw_manager
+close_design
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.2
+  **** Build date : Nov  6 2019 at 22:12:23
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2019.2.0
+  **** Build date : Nov 07 2019-06:28:22
+    ** Copyright 2017-2019 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 3430.172 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-oj1A
+set_property PROGRAM.FILE {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z007s_1]
+set_property PROBES.FILE {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z007s_1]
+current_hw_device [get_hw_devices xc7z007s_1]
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-1435] Device xc7z007s (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-2302] Device xc7z007s (JTAG device index = 1) is programmed with a design that has 1 VIO core(s).
+WARNING: [Labtools 27-1952] VIO hw_probe OUTPUT_VALUE properties for hw_vio(s) [hw_vio_1] differ from output values in the VIO core(s).
+Resolution: 
+To synchronize the hw_probes properties and the VIO core outputs choose one of the following alternatives:
+  1) Execute the command 'Commit Output Values to VIO Core', to write down the hw_probe values to the core.
+  2) Execute the command 'Refresh Input and Output Values from VIO Core', to update the hw_probe properties with the core values.
+  3) First restore initial values in the core with the command 'Reset VIO Core Outputs', and then execute the command 'Refresh Input and Output Values from VIO Core'.
+Commit Output Values to VIO Core
+invalid command name "Commit"
+set_property OUTPUT_VALUE 1000011100011101 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 0000011100011101 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 1000011100011101 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xc7z007s_1] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+open_bd_design {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.srcs/sources_1/bd/design_1/design_1.bd}
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-oj1A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-oj1A
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1435] Device xc7z007s (JTAG device index = 1) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-2302] Device xc7z007s (JTAG device index = 1) is programmed with a design that has 1 VIO core(s).
+WARNING: [Labtools 27-1972] Mismatch between the design programmed into the device xc7z007s (JTAG device index = 1) and the probes file(s) F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.ltx.
+ The core at location uuid_01A4B5947C445FA6BD66F70F5F031273 has different widths for VIO output port 0. Port width in the device core is 1, but port width in the probes file is 16.
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+set_property PROBES.FILE {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z007s_1]
+set_property FULL_PROBES.FILE {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z007s_1]
+set_property PROGRAM.FILE {F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z007s_1]
+program_hw_devices [get_hw_devices xc7z007s_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z007s_1] 0]
+INFO: [Labtools 27-2302] Device xc7z007s (JTAG device index = 1) is programmed with a design that has 1 VIO core(s).
+WARNING: [Labtools 27-1972] Mismatch between the design programmed into the device xc7z007s (JTAG device index = 1) and the probes file(s) F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper.ltx.
+ The core at location uuid_01A4B5947C445FA6BD66F70F5F031273 has different widths for VIO output port 0. Port width in the device core is 1, but port width in the probes file is 16.
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 3444.781 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 44 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'design_1_i/clk_wiz_0/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.218 . Memory (MB): peak = 3462.332 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.218 . Memory (MB): peak = 3462.332 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 3462.332 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 6 instances
+
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+reset_run synth_1
+INFO: [Project 1-973] Auto Incremental Compile:: New reference dcp wns is greater than threshold, current reference dcp will be replaced
+INFO: [filemgmt 20-762] Replacing file 'F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.srcs/utils_1/imports/impl_1/design_1_wrapper_routed.dcp' with file 'F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper_routed.dcp'.
+INFO: [filemgmt 20-1080] Importing file from 'F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/design_1_wrapper_routed.dcp' to 'F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.srcs/utils_1/imports/impl_1/design_1_wrapper_routed.dcp'.
+INFO: [filemgmt 20-762] Replacing file 'F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp' with file 'F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/synth_1/design_1_wrapper.dcp'.
+INFO: [filemgmt 20-1080] Importing file from 'F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/synth_1/design_1_wrapper.dcp' to 'F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp'.
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Sun May 17 18:02:14 2020] Launched synth_1...
+Run output will be captured here: F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/synth_1/runme.log
+[Sun May 17 18:02:14 2020] Launched impl_1...
+Run output will be captured here: F:/pxl/POW 2019-2020/PCB/old version/DigitaleSystemenVHDL/VHDL_74hc595_Matrix/VHDL_74hc595_Matrix.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May 17 18:02:48 2020...
